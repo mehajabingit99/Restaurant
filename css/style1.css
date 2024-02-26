@@ -1,0 +1,66 @@
+/* ---------------------------------HOME PAGE-------------------------------- */
+
+/* Heading */
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    color: violet;
+    text-decoration-color: darkviolet;
+    font-family: 'Bona Nova', serif;
+    letter-spacing: 2px;
+}
+
+/* images */
+.image1 {
+    position: absolute;
+    top: 100px;
+    z-index: 1;
+}
+
+.image2 {
+    position: absolute;
+    top: 100px;
+    left: 225px;
+    z-index: 2;
+}
+
+/* all buttons in one div */
+.button {
+    position: relative;
+    top: 328px;
+    z-index: 3;
+    left: 225px;
+}
+
+/* common class for three buttons */
+.btn {
+    position: relative;
+    text-align: center;
+    padding: 10px 100px;
+    border-radius: 15px 15px 0px 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #ffffff;
+    color: #000000;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+/* separate classes for buttons like btn1,btn2,btn3 */
+.btn1 {
+    margin-left: 2px;
+}
+
+.btn2 {
+    left: 1px;
+}
+
+.btn3 {
+    left: 2px;
+}
+
+/* effects on button */
+.btn:hover {
+    background-color: rgb(145, 87, 12);
+}

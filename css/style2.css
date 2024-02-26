@@ -1,0 +1,57 @@
+/* ---------------------------------MENU PAGE-------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Heading */
+h4 {
+    margin-top: 20px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 25px;
+    display: block;
+    border: 3px solid #000000;
+    background-color: #ffe4c4;
+}
+
+/* images in flex property which shows diff food items*/
+.parent {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-image: linear-gradient(to right, #c23373be, #f5aaccbe, #c23373be);
+}
+
+/* separated food images which is in parent1 class div */
+.child {
+    margin-top: 20px;
+}
+
+/* Headings for their respective food images which is in separate div */
+.menu-name {
+    margin: 20px 0;
+    width: 100%;
+    /* display: inline-block; */
+    text-align: center;
+    font-size: 20px;
+    transition: font-size 4s 1s;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    border: 2px solid #000000;
+    padding: 5px;
+    background-color: #ffe4c4;
+}
+
+/* hovering effects on food items */
+.menu-name:hover {
+    font-size: 40px;
+    background-color: #e4d00a;
+}
